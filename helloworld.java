@@ -1,5 +1,11 @@
+import java.util.*;
+
 public class helloworld {
     public static void main(String[] args) {
-        System.out.println("Hello, World! Welcome to DSA in Java 🚀");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number to print ");
+        int x= sc.nextInt();
+        System.out.println(x);
+     
     }
 }
