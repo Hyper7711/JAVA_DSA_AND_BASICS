@@ -29,7 +29,7 @@ public class prime {
         System.out.println("Enter a NUM");
         int n = sc.nextInt();
         isprime(n);
-
+        sc.close();
             
         }
 
