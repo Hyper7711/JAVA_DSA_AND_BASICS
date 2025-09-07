@@ -2,7 +2,20 @@ import java.util.Scanner;
 
 public class Pattern {
 
-    
+    public static void Pyramid(int n){
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=(2*i)-1;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+    }
+
+
     public static void Butterfly(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
@@ -36,7 +49,7 @@ public class Pattern {
         System.out.println("Enter A NUM");
         int n = sc.nextInt();
 
-        Butterfly(n);
+      Pyramid(n);
         
     }
     
