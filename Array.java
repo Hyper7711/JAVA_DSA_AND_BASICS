@@ -1,4 +1,4 @@
-class Main{
+class Array{
     public static void main(String[] args){
 
         char[] array = new char[4];  // Array with syntax
