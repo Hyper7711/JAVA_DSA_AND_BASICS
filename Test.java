@@ -4,8 +4,6 @@
 // create 3rd array such that : third[i] = first[i] + second[n - 1 - i]
 
 
-// Q.1]
-
 public class Test {
     public static void main(String[] args) {
 
