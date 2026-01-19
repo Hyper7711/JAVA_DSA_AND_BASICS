@@ -13,9 +13,9 @@ public class linear_search_using_Methods {
         sc.close();
     }
 
-    // =====================================
+
     // BASIC LINEAR SEARCH (FIXED ARRAY & KEY)
-    // =====================================
+
     static void basicLinearSearch() {
 
         int[] arr = {1, 2, 3, 6, 8, 9};
@@ -29,9 +29,9 @@ public class linear_search_using_Methods {
         }
     }
 
-    // =====================================
+
     // VARIATION 1: ELEMENT NOT FOUND CASE
-    // =====================================
+ 
     static void linearSearchNotFound(Scanner sc) {
 
         int[] arr2 = {11, 22, 33, 44, 55, 66};
@@ -54,9 +54,9 @@ public class linear_search_using_Methods {
         }
     }
 
-    // =====================================
+
     // VARIATION 2: COUNT OCCURRENCES
-    // =====================================
+
     static void linearSearchCount(Scanner sc) {
 
         int[] arr4 = {77, 88, 99, 0, 12, 13, 14, 15};
@@ -79,9 +79,9 @@ public class linear_search_using_Methods {
         }
     }
 
-    // =====================================
+
     // VARIATION 3: USER INPUT ARRAY SEARCH
-    // =====================================
+
     static void linearSearchUserArray(Scanner sc) {
 
         System.out.print("\nEnter size of array: ");
