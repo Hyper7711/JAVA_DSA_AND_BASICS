@@ -10,8 +10,9 @@ public class Binary_search {
 
             int mid = (low + high) / 2;
 
-            if(mid == key){
+            if(arr[mid] == key){
                 System.out.println("Element found at index = " + mid);
+                break;
             }
             else if(key < arr[mid]){
                 high = mid - 1;
