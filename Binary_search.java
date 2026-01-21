@@ -34,3 +34,4 @@ public class Binary_search {
         sc.close();
     }
 }
+
