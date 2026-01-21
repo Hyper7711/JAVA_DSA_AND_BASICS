@@ -1,7 +1,15 @@
+import java.util.Scanner;
+
+
 public class Binary_search {
     public static void main(String[] args) {
+
         int arr[] = {2, 4, 6, 8, 10, 12};
-        int key = 8;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Element to search");
+        int key = sc.nextInt();
 
         int low = 0;
         int high = arr.length - 1;
