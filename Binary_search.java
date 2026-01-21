@@ -29,5 +29,9 @@ public class Binary_search {
                 low = mid + 1;
             }
         }
+
+        System.out.println("Element not found");
+        sc.close();
+        
     }  
 }
