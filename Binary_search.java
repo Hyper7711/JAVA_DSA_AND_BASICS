@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Binary_search {
     public static void main(String[] args) {
 
@@ -8,30 +7,30 @@ public class Binary_search {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter Element to search");
+        System.out.print("Enter element to search: ");
         int key = sc.nextInt();
 
         int low = 0;
         int high = arr.length - 1;
-        
-        while(low <= high){
+
+        while (low <= high) {
 
             int mid = (low + high) / 2;
 
-            if(arr[mid] == key){
+            if (arr[mid] == key) {
                 System.out.println("Element found at index = " + mid);
-                break;
+                sc.close();
+                return;
             }
-            else if(key < arr[mid]){
+            else if (key < arr[mid]) {
                 high = mid - 1;
             }
-            else{
+            else {
                 low = mid + 1;
             }
         }
 
         System.out.println("Element not found");
         sc.close();
-        
-    }  
+    }
 }
