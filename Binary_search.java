@@ -13,6 +13,8 @@ public class Binary_search {
         int low = 0;
         int high = arr.length - 1;
 
+        boolean = found;
+
         while (low <= high) {
 
             int mid = (low + high) / 2;
@@ -30,7 +32,10 @@ public class Binary_search {
             }
         }
 
-        System.out.println("Element not found");
+        if(!found){
+            System.out.println("Element not found");
+        }
+        
         sc.close();
     }
 }
