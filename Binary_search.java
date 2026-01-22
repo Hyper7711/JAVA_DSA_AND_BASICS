@@ -13,7 +13,7 @@ public class Binary_search {
         int low = 0;
         int high = arr.length - 1;
 
-        boolean = found;
+        boolean found = false;
 
         while (low <= high) {
 
@@ -21,8 +21,8 @@ public class Binary_search {
 
             if (arr[mid] == key) {
                 System.out.println("Element found at index = " + mid);
-                sc.close();
-                return;
+                found = true;
+                break;
             }
             else if (key < arr[mid]) {
                 high = mid - 1;
@@ -35,7 +35,7 @@ public class Binary_search {
         if(!found){
             System.out.println("Element not found");
         }
-        
+
         sc.close();
     }
 }
