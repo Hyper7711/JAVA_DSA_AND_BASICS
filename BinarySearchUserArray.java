@@ -5,14 +5,14 @@ public class BinarySearchUserArray {
 
         Scanner sc = new Scanner(System.in);
 
-
+        // Array initialize
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
         int[] arr = new int[n];
 
 
-        System.out.println("Enter array elements in SORTED order:");
+        System.out.println("Enter array elements in sorted order:");
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
@@ -21,12 +21,12 @@ public class BinarySearchUserArray {
         System.out.print("Enter element to search: ");
         int key = sc.nextInt();
 
-
+        // initialize variables
         int low = 0;
         int high = arr.length - 1;
         boolean found = false;
 
-
+        // basic logic
         while (low <= high) {
 
             int mid = (low + high) / 2;
