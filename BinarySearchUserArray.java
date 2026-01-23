@@ -22,11 +22,11 @@ public class BinarySearchUserArray {
         int key = sc.nextInt();
 
         // Step 4: Binary search variables
-        // int low = 0;
+        int low = 0;
         int high = arr.length - 1;
         boolean found = false;
 
-        
+        // Step 5: Binary search logic
         while (low <= high) {
 
             int mid = (low + high) / 2;
