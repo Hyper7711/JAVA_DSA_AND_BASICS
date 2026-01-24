@@ -5,7 +5,7 @@ public class BinarySearchUserArray {
 
         Scanner sc = new Scanner(System.in);
 
-        // Array initialize
+        // Array initialization
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
