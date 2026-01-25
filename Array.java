@@ -16,7 +16,7 @@ class Array{
 
         }
 
-        // Assign + creating the array at a time 
+        // Assign + creating the array at a time
         
         int[] num = {1, 2, 3, 4};
 
