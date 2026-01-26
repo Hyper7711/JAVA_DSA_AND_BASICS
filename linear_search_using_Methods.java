@@ -13,9 +13,8 @@ public class linear_search_using_Methods {
         sc.close();
     }
 
-
     // BASIC LINEAR SEARCH (FIXED ARRAY & KEY)
-
+    
     static void basicLinearSearch() {
 
         int[] arr = {1, 2, 3, 6, 8, 9};
