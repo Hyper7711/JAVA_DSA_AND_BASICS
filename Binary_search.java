@@ -4,7 +4,7 @@ public class Binary_search {
     public static void main(String[] args) {
 
         // initialize array
-        
+
         int arr[] = {2, 4, 6, 8, 10, 12};
 
         Scanner sc = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class Binary_search {
         int key = sc.nextInt();
 
         // initialize varaibles
+        
         int low = 0;
         int high = arr.length - 1;
 
