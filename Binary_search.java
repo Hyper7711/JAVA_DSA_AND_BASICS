@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Binary_search {
     public static void main(String[] args) {
-
+        
         int arr[] = {2, 4, 6, 8, 10, 12};
 
         Scanner sc = new Scanner(System.in);
@@ -10,6 +10,7 @@ public class Binary_search {
         System.out.print("Enter element to search: ");
         int key = sc.nextInt();
 
+        // initialize varaibles
         int low = 0;
         int high = arr.length - 1;
 
