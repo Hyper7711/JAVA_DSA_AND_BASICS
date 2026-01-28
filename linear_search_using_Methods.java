@@ -30,6 +30,7 @@ public class linear_search_using_Methods {
 
 
     // VARIATION 1: ELEMENT NOT FOUND CASE
+     
  
     static void linearSearchNotFound(Scanner sc) {
 
