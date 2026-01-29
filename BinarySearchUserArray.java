@@ -26,7 +26,7 @@ public class BinarySearchUserArray {
         int high = arr.length - 1;
         boolean found = false;
 
-        // basic Logic
+        // basic Logic of binarySearch
         while (low <= high) {
 
             int mid = (low + high) / 2;
