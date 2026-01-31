@@ -6,6 +6,7 @@ public class BinarySearchUserArray {
         Scanner sc = new Scanner(System.in);
 
         // Array initialization
+        
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
@@ -22,11 +23,13 @@ public class BinarySearchUserArray {
         int key = sc.nextInt();
 
         // initialize variables
+        
         int low = 0;
         int high = arr.length - 1;
         boolean found = false;
 
-        // basic Logic
+        // basic Logic of BinarySearch
+        
         while (low <= high) {
 
             int mid = (low + high) / 2;

@@ -13,7 +13,7 @@ public class linear_search_using_Methods {
         sc.close();
     }
 
-    // BASIC LINEAR SEARCH (FIXED ARRAY & KEY)
+    // BASIC LINEAR SEARCH 
     
     static void basicLinearSearch() {
 
@@ -30,6 +30,7 @@ public class linear_search_using_Methods {
 
 
     // VARIATION 1: ELEMENT NOT FOUND CASE
+     
  
     static void linearSearchNotFound(Scanner sc) {
 
