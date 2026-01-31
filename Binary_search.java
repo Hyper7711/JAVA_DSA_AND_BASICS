@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Binary_search {
     public static void main(String[] args) {
 
-        // initialize array
+        // Initialize array
 
         int arr[] = {2, 4, 6, 8, 10, 12};
 
