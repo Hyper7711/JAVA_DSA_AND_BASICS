@@ -12,8 +12,8 @@ public class Binary_search {
         System.out.print("Enter element to search: ");
         int key = sc.nextInt();
 
-        // initialize varaibles
-        
+        // Initialize varaibles
+
         int low = 0;
         int high = arr.length - 1;
 
