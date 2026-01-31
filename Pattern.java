@@ -50,6 +50,8 @@ public class Pattern {
         int n = sc.nextInt();
 
       Pyramid(n);
+
+      sc.close();
         
     }
     
