@@ -13,6 +13,8 @@ public class prime {
         }
        }
 
+        // Condition 
+        
         if(check == true){
             System.out.println("number is prime");
 
