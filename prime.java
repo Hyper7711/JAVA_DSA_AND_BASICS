@@ -13,6 +13,8 @@ public class prime {
         }
        }
 
+        // Condition 
+        
         if(check == true){
             System.out.println("number is prime");
 
@@ -23,6 +25,8 @@ public class prime {
       
         
     }
+
+    // Calling Function 
       public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
