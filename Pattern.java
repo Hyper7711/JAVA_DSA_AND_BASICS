@@ -19,7 +19,7 @@ public class Pattern {
 
 
     // Butterfly
-    
+
     public static void Butterfly(int n){
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
@@ -48,6 +48,8 @@ public class Pattern {
 
         }
     }
+
+    // User Input
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter A NUM");
