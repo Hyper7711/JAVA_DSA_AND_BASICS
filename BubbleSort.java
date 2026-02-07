@@ -1,8 +1,18 @@
+import java.util.*;
+
 public class BubbleSort {
     public static void main(String[] args) {
-        
-        int[] arr = {5, 3, 2, 8};
-        int n = arr.length;
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        System.out.println("Enter the size of array :- " );
+        int[] arr = new int[n];
+
+        System.out.println("Enter the elements of array :- ");
+        for(int i = 0; i < n; i++){
+            arr[i] = sc.nextInt();
+        }
 
         for (int pass = 0; pass < n-1; pass++){
 
