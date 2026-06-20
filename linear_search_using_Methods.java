@@ -112,4 +112,3 @@ public class linear_search_using_Methods {
         }
     }   
 }
-
