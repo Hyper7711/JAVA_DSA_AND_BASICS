@@ -38,6 +38,17 @@ public class Pattern {
         }
     }
 
+    //Inverted Pattern
+  
+    public static void InvertedTriangle (int n){
+        for(int i = n; i >= 1; i--){
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+
     // Butterfly Pattern
     public static void Butterfly(int n){
         // Upper part
@@ -78,6 +89,8 @@ public class Pattern {
         System.out.println("1. Square");
         System.out.println("2. Pyramid");
         System.out.println("3. Butterfly");
+        System.out.println("4. INvertedTriangle");
+        System.out.println("5. Pyramid");
 
         int choice = sc.nextInt();
 
@@ -94,10 +107,14 @@ public class Pattern {
             case 3:
                 Butterfly(n);
                 break;
+            case 4:
+                InvertedTriangle(n);
+                break;
+            case 5:
+                Pyramid(n);
             default:
                 System.out.println("Invalid Choice!");
         }
-
         sc.close();
     }
 }
