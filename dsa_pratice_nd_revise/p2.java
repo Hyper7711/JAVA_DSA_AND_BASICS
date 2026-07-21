@@ -1,46 +1,42 @@
-import java.util.Scanner;
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
 
-public class p2 {
+// Top half
+for (int i = 1; i <= n; i++) {
 
-    static public void main(String args[]){
-
-        Scanner sc = new Scanner(System.in);
-        int i = sc.nextInt();
-        // String button = sc.nextLine();
-
-        // if( button == 1){
-        //     System.out.println("Hello");
-        // }
-
-        // else if ( button == 2){
-        //     System.out.println("Namaste");
-
-        // }
-
-        // else if ( button == 3){
-        //     System.out.println("bonjour");
-
-        // }
-        
-
-        // SWITCH APPROACH -
-
-        // switch(button){
-        //     case "red" : System.out.println("Hello");
-        //     break;
-        //     case "blue" : System.out.println("Namaste");
-        //     break;
-        //     case "yellow" : System.out.println("Bonjour");
-        //     break;
-        //     default : System.out.println("Invalid");
-        //     break;
-        // }
-
-        // sc.close();
-
-
-        //lLoops -
-
+    // Leading spaces
+    for (int j = 1; j <= n - i; j++) {
+        System.out.print(" ");
     }
-    
+
+    // Stars and inner spaces
+    for (int j = 1; j <= 2 * i - 1; j++) {
+        if (j == 1 || j == 2 * i - 1) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+
+    System.out.println();
+}
+
+// Bottom half
+for (int i = n - 1; i >= 1; i--) {
+
+    // Leading spaces
+    for (int j = 1; j <= n - i; j++) {
+        System.out.print(" ");
+    }
+
+    // Stars and inner spaces
+    for (int j = 1; j <= 2 * i - 1; j++) {
+        if (j == 1 || j == 2 * i - 1) {
+            System.out.print("*");
+        } else {
+            System.out.print(" ");
+        }
+    }
+
+    System.out.println();
 }
