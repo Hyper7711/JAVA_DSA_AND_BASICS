@@ -2,8 +2,6 @@ class p1 {
 
     public static void maxrem(int n){
 
-    
-
         int num =0;
         int max = 0;
 

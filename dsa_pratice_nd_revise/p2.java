@@ -1,42 +1,23 @@
-Scanner sc = new Scanner(System.in);
-int n = sc.nextInt();
+import java.util.*;
 
-// Top half
-for (int i = 1; i <= n; i++) {
+public class GreaterNum {
 
-    // Leading spaces
-    for (int j = 1; j <= n - i; j++) {
-        System.out.print(" ");
-    }
-
-    // Stars and inner spaces
-    for (int j = 1; j <= 2 * i - 1; j++) {
-        if (j == 1 || j == 2 * i - 1) {
-            System.out.print("*");
+    static int Greater(int a, int b) {
+        if (a > b) {
+            return a;
         } else {
-            System.out.print(" ");
+            return b;
         }
     }
 
-    System.out.println();
-}
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
 
-// Bottom half
-for (int i = n - 1; i >= 1; i--) {
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-    // Leading spaces
-    for (int j = 1; j <= n - i; j++) {
-        System.out.print(" ");
+        System.out.println("Greater number is " + Greater(a, b));
+
+        sc.close();
     }
-
-    // Stars and inner spaces
-    for (int j = 1; j <= 2 * i - 1; j++) {
-        if (j == 1 || j == 2 * i - 1) {
-            System.out.print("*");
-        } else {
-            System.out.print(" ");
-        }
-    }
-
-    System.out.println();
 }

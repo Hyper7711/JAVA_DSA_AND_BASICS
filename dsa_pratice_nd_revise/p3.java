@@ -28,8 +28,23 @@ public static void main(String arg[]){
 
     }while(ch == 'y' );
 
+<<<<<<< HEAD
         System.out.println("number of pos " + pos);
         System.out.println("number of neg " + neg);
         System.out.println("number is zero "+ zero);
 }
 }
+=======
+            for (int j = 1; j <= 2 * i - 1; j++) {
+                if (j == 1 || j == 2 * i - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+    
+>>>>>>> 49c6222f08092887a103fefe4e54d0e2a6e658df
