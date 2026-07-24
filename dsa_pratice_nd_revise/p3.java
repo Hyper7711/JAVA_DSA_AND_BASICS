@@ -1,44 +1,35 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class p3 {
+public class p3{
+
+public static void main(String arg[]){
+    Scanner sc = new Scanner(System.in);
+
+    int pos = 0;
+    int neg = 0;
+    int zero = 0;
+    char ch;
     
-    static public void main(String args[]){
+    do{
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int num = sc.nextInt();
 
-        for(int i = 1; i <= n; i++){
-
-            for(int j = 1; j <= n - i; j++){
-                System.out.print(" ");
-            }
-
-            for (int j = 1; j <= 2 * i - 1; j++) {
-                if (j == 1 || j == 2 * i - 1) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-
-            System.out.println();
+        if(num > 0){
+            pos++;
+        }
+        else if (num < 0){
+            neg++;
+        }else{
+            zero++;
         }
 
-        for(int i = n - 1; i >= 1; i--){
+        System.out.println("continue ? ");
+        ch = sc.next().charAt(0);    //imp line 
 
-            for(int j = 1; j <= n - i; j++){
-                System.out.print(" ");
-            }
+    }while(ch == 'y' );
 
-            for (int j = 1; j <= 2 * i - 1; j++) {
-                if (j == 1 || j == 2 * i - 1) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-
-            System.out.println();
-        }
-    }
+        System.out.println("number of pos " + pos);
+        System.out.println("number of neg " + neg);
+        System.out.println("number is zero "+ zero);
+}
 }
