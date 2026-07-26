@@ -22,8 +22,8 @@ public class p3{
             System.out.println(num [i] + " ");
         }
 
-        for(int i = 0; i < array.length; i ++){
-            System.out.println(array[i]);
+        for(int i = 0; i < num.length; i ++){
+            System.out.println(num[i]);
         }
 
     }
