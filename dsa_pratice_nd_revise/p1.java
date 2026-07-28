@@ -1,11 +1,23 @@
+import java.util.*;
+
 class p1 {
 
     public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
 
-        int array[] = {11,22,33,44,55,66};
+        String names[] = new String[size];
+        
+        for(int i = 0; i < size; i++){
+            names[i] = sc.next();
+        }
 
-        System.out.println(array[2]);
+        for(int i = 0; i < names.length; i++){
+            System.out.print(names[i]);
+        }
+
+        }
 
     }
     
-}
+
