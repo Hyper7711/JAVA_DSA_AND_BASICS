@@ -4,16 +4,25 @@ public class p3{
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int size = sc.nextInt();
+        int numbers[] = new int[size];
 
-        int num[] = new int[n];
+        // input 
 
-        for(int i = 0; i < n; i ++){
-            num[i] = sc.nextInt();
+        for(int i = 0; i < size; i++){
+            numbers[i]= sc.nextInt();
         }
 
-        for(int i = 0; i < num.length; i++){
-            System.out.print(num[i]);
+        int x = sc.nextInt();
+
+        //output
+
+        for(int i = 0;i < numbers.length; i++){
+            if( x >= 0 && x < numbers.length){
+                System.out.print("Value at index " + x + " = " + numbers[x]);
+            }else{
+                System.out.print("Invalid input");
+            }
         }
     }
 }
