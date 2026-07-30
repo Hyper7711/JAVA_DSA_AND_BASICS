@@ -7,7 +7,7 @@ public class p3{
         int size = sc.nextInt();
         int numbers[] = new int[size];
 
-        // input 
+        // Input 
 
         for(int i = 0; i < size; i++){
             numbers[i]= sc.nextInt();
@@ -15,7 +15,7 @@ public class p3{
 
         int x = sc.nextInt();
 
-        //output
+        //Output
 
         for(int i = 0;i < numbers.length; i++){
             if( x >= 0 && x < numbers.length){
