@@ -21,7 +21,7 @@ public class p3{
             if( x >= 0 && x < numbers.length){
                 System.out.print("Value at index " + x + " = " + numbers[x]);
             }else{
-                System.out.print("Invalid input");
+                System.out.print("Invalid Input");
             }
         }
     }
