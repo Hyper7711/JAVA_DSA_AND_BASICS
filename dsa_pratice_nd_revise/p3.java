@@ -8,27 +8,22 @@ public class p3{
 
         int numbers[] = new int[size];
 
-        //input
+        // input 
 
         for(int i = 0 ; i < numbers.length; i++){
             numbers[i] = sc.nextInt();
         }
 
-        boolean isAscending = true;
+        int x = sc.nextInt();
 
-        for(int i =0; i < numbers.length -1 ; i++){
+        //output
 
-            if( numbers[i] > numbers[i + 1]){
-
-                isAscending = false;
+        for(int i = 0;i < numbers.length; i++){
+            if( x >= 0 && x < numbers.length){
+                System.out.print("Value at index " + x + " = " + numbers[x]);
+            }else{
+                System.out.print("Invalid input");
             }
-
-        }
-
-        if (isAscending){
-            System.out.println(" the array is in ascending order");
-        } else {
-            System.out.println("The array is not not sorted");
         }
     }
 }
