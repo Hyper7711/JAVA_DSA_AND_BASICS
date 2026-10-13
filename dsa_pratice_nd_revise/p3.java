@@ -25,5 +25,3 @@ public class p3{
                 System.out.print("Invalid input");
             }
         }
-    }
-}
